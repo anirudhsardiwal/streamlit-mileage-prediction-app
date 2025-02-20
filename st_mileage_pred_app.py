@@ -154,3 +154,5 @@ if submitted:
     st.success(
         f"The predicted mileage is **{result:.1f}** mpg with a ± 2.1 mpg accuracy"
     )
+
+st.write(data)
