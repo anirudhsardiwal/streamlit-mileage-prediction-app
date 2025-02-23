@@ -207,3 +207,5 @@ with col2:
         csv = data.to_csv(index=False)
 
         st.download_button("Download Predictions", csv, result_filename, "text/csv")
+
+st.write(data)
